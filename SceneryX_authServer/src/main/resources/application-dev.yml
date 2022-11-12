@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://124.221.98.135:3366/db_scenery?useSSL=true
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: yyyppp
+    password: yyyppp0502
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

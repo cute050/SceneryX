@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sx-authServer
+  profiles:
+    active: dev
+
+server:
+  port: 52
