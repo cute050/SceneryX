@@ -30,6 +30,10 @@
         <druid.version>1.2.6</druid.version>
         <knife4j.version>3.0.3</knife4j.version>
         <mariadb.version>3.0.9</mariadb.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <swagger.version>1.5.22</swagger.version>
+        <sxCommon.version>0.0.1-SNAPSHOT</sxCommon.version>
+        <fastjson.version>1.2.78</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -72,6 +76,30 @@
                 <version>${mariadb.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.yp.sx</groupId>
+                <artifactId>SceneryX_common</artifactId>
+                <version>${sxCommon.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
@@ -81,7 +109,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
-
 
 
         <dependency>
@@ -101,6 +128,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
 </project>

@@ -8,6 +8,8 @@ spring:
       date-time: yyyy-MM-dd HH:mm:ss
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 88

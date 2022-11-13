@@ -39,6 +39,11 @@
         </dependency>
 
         <dependency>
+            <groupId>com.yp.sx</groupId>
+            <artifactId>SceneryX_common</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
         </dependency>
